@@ -1,0 +1,515 @@
+html, body {
+  margin: 0;
+
+  padding-left: 0;
+}
+
+
+footer{
+  background-color: silver;
+}
+header{
+  background-color: silver;
+}
+ #logo_solde{
+   width: 11em;
+ }
+ p{
+   text-align: center;
+   margin-top: -88px;
+ }
+ #tel{
+   width: 2em;
+   margin-left: 322px;
+   vertical-align: middle;
+ }
+ #hor{
+   width: 2em;
+   vertical-align: middle;
+ }
+ #BD{
+   width: 2em;
+   vertical-align: middle;
+ }
+
+ #compte{
+   width: 2em;
+   margin-left: 63em;
+   vertical-align: middle;
+
+ }
+ #panier{
+   width: 2em;
+   vertical-align: middle;
+ }
+ a{
+   text-decoration: none;
+   color: black;
+   margin-left: 52px;
+ }
+ h2{
+   text-align: justify;
+   margin-top: 51px;
+ }
+ h4{
+   margin-top: 34px;
+ }
+
+ input{
+   margin-right: 168px;
+   margin-top: -27px;
+   font-size: 1.4em;
+   margin-left: 1em;
+ }
+ #portable_tablette{
+   width: 20em;
+ }
+ #pc_peripherique{
+   width: 15em;
+   margin-left: 38px;
+ }
+ strong{
+   margin-left: 27px;
+ }
+ #imprimente{
+   width: 20em;
+ }
+ #acer {
+   width: 15em;
+ }
+ #asus {
+   width: 15em;
+ }
+ #microsoft {
+   width: 15em;
+ }
+ #materiel_info {
+   width: 20em;
+ }
+ #catalogue {
+   width: 8em;
+   margin-top: 120px;
+ }
+ #logiciel {
+   width: 10em;
+ }
+ #livraison {
+   width: 9em;
+   vertical-align: middle;
+ }
+ #paiement_secu {
+   width: 9em;
+   vertical-align: middle;
+ }
+ @media screen and (max-width: 480px){
+   #logo_solde{
+     width: 3em;
+     display: block;
+   }
+   p{
+     display: block;
+     margin-top: 8px
+   }
+   #tel{
+     width: 1em;
+     /*margin-left: 322px;*/
+     vertical-align: middle;
+     display: block;
+   }
+   #hor{
+     width: 1em;
+     vertical-align: middle;
+   }
+   #BD{
+     width: 1em;
+     vertical-align: middle;
+   }
+   #compte{
+     width: 1em;
+     /*margin-left: 63em;*/
+     vertical-align: middle;
+
+   }
+   #panier{
+     width: 1em;
+     vertical-align: middle;
+   }
+   a{
+     text-decoration: none;
+     color: black;
+     /*margin-left: 52px;*/
+    display: block;
+   }
+   h2{
+     text-align: justify;
+    /* margin-top: 51px;*/
+   }
+   h4{
+     /*margin-top: 34px;*/
+   }
+   #portable_tablette{
+     width: 6em;
+     display: block;
+   }
+   #pc_peripherique{
+     width: 5em;
+     /*margin-left: 38px;*/
+     display: block;
+   }
+   strong{
+     margin-left: 4px;
+     display: block;
+   }
+   #imprimente{
+     width: 5em;
+     display: block;
+   }
+   #acer {
+     width: 5em;
+     display: block;
+   }
+   #asus {
+     width: 5em;
+     display: block;
+   }
+   #microsoft {
+     width: 5em;
+     display: block;
+   }
+   #materiel_info {
+     width: 8em;
+     display: block;
+   }
+   #catalogue {
+     width: 4em;
+     display: block;
+     /*margin-top: 120px;*/
+   }
+   #logiciel {
+     width: 5em;
+     display: block;
+   }
+   #livraison {
+     width: 4em;
+     display: block;
+     vertical-align: middle;
+   }
+   #paiement_secu {
+     width: 4em;
+     display: block;
+     vertical-align: middle;
+   }
+   footer{
+     background-color: silver;
+     display: block;
+   }
+ }
+ @media screen and (max-width: 767px){
+   #logo_solde{
+     width: 6em;
+     display: block;
+   }
+   p{
+     display: block;
+     margin-top: 11px
+   }
+   #tel{
+     width: 1.5em;
+     /*margin-left: 322px;*/
+     vertical-align: middle;
+     display: block;
+   }
+   #hor{
+     width: 1.5em;
+     vertical-align: middle;
+   }
+   #BD{
+     width: 1.5em;
+     vertical-align: middle;
+   }
+   #compte{
+     width: 1.5em;
+     /*margin-left: 63em;*/
+     vertical-align: middle;
+
+   }
+   #panier{
+     width: 1.5em;
+     vertical-align: middle;
+   }
+   a{
+     text-decoration: none;
+     color: black;
+     /*margin-left: 52px;*/
+    display: block;
+   }
+   h2{
+     text-align: justify;
+    /* margin-top: 51px;*/
+   }
+   h4{
+     /*margin-top: 34px;*/
+   }
+   #portable_tablette{
+     width: 9em;
+     display: block;
+   }
+   #pc_peripherique{
+     width: 8em;
+     /*margin-left: 38px;*/
+     display: block;
+   }
+   strong{
+     margin-left: 8px;
+     display: block;
+   }
+   #imprimente{
+     width: 8em;
+     display: block;
+   }
+   #acer {
+     width: 8em;
+     display: block;
+   }
+   #asus {
+     width: 8em;
+     display: block;
+   }
+   #microsoft {
+     width: 9em;
+     display: block;
+   }
+   #materiel_info {
+     width: 10em;
+     display: block;
+   }
+   #catalogue {
+     width: 6em;
+     display: block;
+     /*margin-top: 120px;*/
+   }
+   #logiciel {
+     width: 6em;
+     display: block;
+   }
+   #livraison {
+     width: 6em;
+     display: block;
+     vertical-align: middle;
+   }
+   #paiement_secu {
+     width: 6em;
+     display: block;
+     vertical-align: middle;
+   }
+   footer{
+     background-color: silver;
+     display: block;
+   }
+ }
+ @media screen and (max-width: 979px){
+   #logo_solde{
+     width: 6em;
+     display: block;
+   }
+   p{
+     display: block;
+     margin-top: 10px
+   }
+   #tel{
+     width: 1.8em;
+     /*margin-left: 322px;*/
+     vertical-align: middle;
+     display: block;
+   }
+   #hor{
+     width: 1.8em;
+     vertical-align: middle;
+   }
+   #BD{
+     width: 1.8em;
+     vertical-align: middle;
+   }
+   #compte{
+     width: 1.8em;
+     /*margin-left: 63em;*/
+     vertical-align: middle;
+
+   }
+   #panier{
+     width: 1.8em;
+     vertical-align: middle;
+   }
+   a{
+     text-decoration: none;
+     color: black;
+     /*margin-left: 52px;*/
+    display: block;
+   }
+   h2{
+     text-align: justify;
+    /* margin-top: 51px;*/
+   }
+   h4{
+     /*margin-top: 34px;*/
+   }
+   #portable_tablette{
+     width: 9em;
+     display: block;
+   }
+   #pc_peripherique{
+     width: 8em;
+     /*margin-left: 38px;*/
+     display: block;
+   }
+   strong{
+     margin-left: 6px;
+     display: block;
+   }
+   #imprimente{
+     width: 8em;
+     display: block;
+   }
+   #acer {
+     width: 8em;
+     display: block;
+   }
+   #asus {
+     width: 7em;
+     display: block;
+   }
+   #microsoft {
+     width: 8em;
+     display: block;
+   }
+   #materiel_info {
+     width: 10em;
+     display: block;
+   }
+   #catalogue {
+     width: 6em;
+     display: block;
+     /*margin-top: 120px;*/
+   }
+   #logiciel {
+     width: 7em;
+     display: block;
+   }
+   #livraison {
+     width: 6em;
+     display: block;
+     vertical-align: middle;
+   }
+   #paiement_secu {
+     width: 6em;
+     display: block;
+     vertical-align: middle;
+   }
+   footer{
+     background-color: silver;
+     display: block;
+   }
+ }
+ @media screen and (max-width: 1199px){
+   #logo_solde{
+     width: 8em;
+     display: block;
+   }
+   p{
+     display: block;
+     margin-top: 15px
+   }
+   #tel{
+     width: 2em;
+     /*margin-left: 322px;*/
+     vertical-align: middle;
+     display: block;
+   }
+   #hor{
+     width: 2em;
+     vertical-align: middle;
+   }
+   #BD{
+     width: 2em;
+     vertical-align: middle;
+   }
+   #compte{
+     width: 2em;
+     /*margin-left: 63em;*/
+     vertical-align: middle;
+
+   }
+   #panier{
+     width: 2em;
+     vertical-align: middle;
+   }
+   a{
+     text-decoration: none;
+     color: black;
+     /*margin-left: 52px;*/
+    display: block;
+   }
+   h2{
+     text-align: justify;
+    /* margin-top: 51px;*/
+   }
+   h4{
+     /*margin-top: 34px;*/
+   }
+   #portable_tablette{
+     width: 14em;
+     display: block;
+   }
+   #pc_peripherique{
+     width: 12em;
+     /*margin-left: 38px;*/
+     display: block;
+   }
+   strong{
+     margin-left: 11px;
+     display: block;
+   }
+   #imprimente{
+     width: 13em;
+     display: block;
+   }
+   #acer {
+     width: 10em;
+     display: block;
+   }
+   #asus {
+     width: 10em;
+     display: block;
+   }
+   #microsoft {
+     width: 10em;
+     display: block;
+   }
+   #materiel_info {
+     width: 13em;
+     display: block;
+   }
+   #catalogue {
+     width: 10em;
+     display: block;
+     /*margin-top: 120px;*/
+   }
+   #logiciel {
+     width: 10em;
+     display: block;
+   }
+   #livraison {
+     width: 7em;
+     display: block;
+     vertical-align: middle;
+   }
+   #paiement_secu {
+     width: 7em;
+     display: block;
+     vertical-align: middle;
+   }
+   footer{
+     background-color: silver;
+     display: block;
+   }
+ }
